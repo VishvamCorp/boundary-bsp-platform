@@ -18,6 +18,10 @@
   <remote name="boundary" fetch="https://github.com/boundarydevices"/>
   <remote name="laird" fetch="https://github.com/LairdCP"/>
 
+  <remote name="cartzy" fetch="https://github.com/VishvamCorp"/>
+
+  <project name="meta-cartzy" remote="cartzy" path="sources/meta-cartzy" revision="6.6.23"/>
+  
   <project name="poky" remote="yp" path="sources/poky" revision="02eacd385eca7aa9cf25aaaa61427aa9c126e0bc" upstream="scarthgap"/>
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="a72010b414ee3d73888ac9cb4e310e8f05e13aea" upstream="scarthgap"/>
   <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="66414c17ae60e489bef9a97031323e92c247fbe1" upstream="scarthgap"/>
